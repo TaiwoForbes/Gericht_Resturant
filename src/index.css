@@ -31,4 +31,14 @@
               transform: translateY(0);
     }
   }
+
+
+.container{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar{
+  display: none;
+}
   

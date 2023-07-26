@@ -10,6 +10,7 @@ module.exports = {
         gray: "#545454",
         crimson: "#F5EFDB",
         grey: "#AAAAAA",
+        overlay: "rgba(0,0,0,0.30)",
       },
       fontFamily: {
         cormorant: ["Cormorant Upright", "sans-serif"],
