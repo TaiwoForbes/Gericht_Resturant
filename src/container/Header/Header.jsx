@@ -2,8 +2,8 @@ import React from 'react';
 import spoon from '../../assets/spoon.png';
 import welcome from '../../assets/welcome.png'
 const Header = () => (
-  <div className='flex justify-center items-center gap-10 ss:flex-row flex-col py-[90px] px-[2rem] bg-black text-white warapper section' id='home'>
-    <div className='pl-[5rem] sm:pl-[5rem] pl-[2rem]'>
+  <div className=' flex justify-center items-center gap-10 ss:flex-row flex-col py-[90px] px-[2rem] bg-black text-white warapper section' id='home'>
+    <div className='pl-[0rem] ss:pl-[5rem] pl-[2rem]'>
       <div className='mb-[16px]'>
         <p className='font-cormorant'>Chase the New Flavour</p>
         <img src={spoon} alt="spoon" />
@@ -15,7 +15,7 @@ const Header = () => (
     </div>
 
     <div className=''>
-      <img src={welcome} alt="" className='w-[80%] sm:w-[80%] w-[110%]' />
+      <img src={welcome} alt="" className=' sm:w-[100%] md:w-[80%]' />
     </div>
   </div>
 );

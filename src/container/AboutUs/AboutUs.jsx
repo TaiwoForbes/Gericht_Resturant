@@ -5,7 +5,7 @@ import spoon from '../../assets/spoon.png';
 import knife from '../../assets/knife.png';
 
 const AboutUs = () => (
-  <div className='bg-image relative flex justify-center py-16 px-[9rem]      sm:py-16 py-5  sm:px-[9rem] px-[14px]' id='about'>
+  <div className='bg-image relative flex justify-center py-16 ss:px-[2rem] sm:px-[2rem] md:px-[5rem] lg:px-[9rem]      ' id='about'>
     <div className='flex justify-center items-center'>
       {/* "g" image with negative z-index */}
       <img src={g} alt="g letter" className='w-[391px] h-[415px] sm:w-[391px] w-[300px] sm:h-[415px] h-[270px] absolute z-[0] ' />
@@ -18,8 +18,8 @@ const AboutUs = () => (
           <button type='button' className='mt-6 bg-golden py-2 px-6 md:py-2 py-1 px-6 md:px-6 px-4          sm:py-1 py-1 px-6 sm:px-4 px-2'>Know More</button>
         </div>
 
-        <div className='my-[2rem] mx-[4rem] s'>
-          <img src={knife} className='h-[910px] sm:h-[910px] h-[600px] ' alt="about knife" />
+        <div className='my-[2rem] mx-[2rem] '>
+          <img src={knife} className='h-[910px] sm:h-[600px] ' alt="about knife" />
         </div>
 
         <div className='flex-1 flex justify-center items-start flex-col'>
